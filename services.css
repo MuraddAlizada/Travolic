@@ -1,0 +1,511 @@
+* { 
+    box-sizing: border-box;
+}
+
+:root { 
+    --Blue: #1090CB;
+    --Black: #000;
+    --White: #FFF;
+    --Poppins: @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    --DarkBlue:rgba(16, 144, 203, 0.10);
+    
+}
+
+
+
+body {  
+    background-color: var(--White);
+}
+
+/* Main  */
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.ourserv {
+    margin-bottom: 250px;
+    padding-top: 78px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+    height: 635px;
+    width: 100%;
+    background: var(--DarkBlue)
+}
+
+.speaker {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 135px;
+    border-radius: 67.5px;
+    background-color: var(--White);
+}
+
+.ourserv h2 {
+    color: var(--Blue);
+    font-family: var(--Poppins);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+
+}
+
+
+.ourserv p {
+    color: #696969;
+    width: 440px;
+    font-family: var(--Poppins);
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31.5px; 
+}
+
+.plant {
+    right: 29px;
+    position: absolute;
+    top: 420px;
+    right: 148px;
+    z-index: 1;
+    transform: rotate(2deg);
+}
+
+.lorem {
+    display: flex;
+    padding-left: 118px;
+    gap: 122px;
+    margin-bottom: 158px;
+    margin-top: 71px;
+}
+
+
+.text {   
+    width: 476px;
+}
+
+.text h1 {
+    color: var(--Black);
+    font-family: var(--Poppins);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 170%;
+    margin-bottom: 56px;
+}
+
+
+.blue {
+    color: var(--Blue);
+    font-family: var(--Poppins);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 51px;
+}
+
+.text p {
+    color: #545454;
+    font-family: var(--Poppins);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+}
+
+
+.btn {
+    padding: 10px 52px;
+    border-radius: 10px;
+    border: 1px solid var(--Blue) ;
+    background: var(--White) ;
+    color:-var(--Blue) ;
+    font-family: var(--Poppins);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 204.3%;
+    margin-top: 40px;
+}
+
+.ser3 {
+    width: 673px;
+    object-fit: cover;
+
+}
+
+
+
+.card {    
+    position: absolute;
+    margin: 0 120px;
+    top: 480px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-around;
+    gap: 56px;
+    padding: 70px 0px;
+    border-radius: 10px;
+    background: var(--White) ;
+    box-shadow: 0px 4px 124px 1px rgba(0, 0, 0, 0.10);
+
+}
+
+.weba img  {
+    width: 41px;
+    height: 41px;
+    flex-shrink: 0;
+    margin: 24px;
+}
+
+.weba {
+    width: 91px;
+    height: 90px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF2F2;
+
+    
+}
+
+.webapp {
+    display: flex;
+    flex-direction: row;
+    gap: 29px;
+    
+
+}
+
+.webapp h5 {
+    color: #2E0D64;
+    text-align: center;
+    font-family: var(--Poppins);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44.475px; 
+    letter-spacing: 0.25px;
+
+}
+
+.seop {
+    width: 91px;
+    height: 90px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: var(--White);
+}
+
+.seo {
+    display: flex;
+    flex-direction: row;
+    gap: 29px;
+    /* background: #E2F3FF; */
+
+}
+
+.seop {
+    width: 91px;
+    height: 90px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #E2F3FF;
+
+
+}
+
+.seop img  {
+    width: 41px;
+    height: 41px;
+    flex-shrink: 0;
+    margin: 24px;
+}
+
+.seo h5 {
+    color: #2E0D64;
+    text-align: center;
+    font-family: var(--Poppins);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44.475px; 
+    letter-spacing: 0.25px;
+}
+
+.moba {
+    width: 91px;
+    height: 90px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #F1E8FF;
+
+}
+
+.mobapp h5 {
+    color: #2E0D64;
+    text-align: center;
+    font-family: var(--Poppins);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44.475px; 
+    letter-spacing: 0.25px;  
+}
+
+.moba img  {
+    width: 41px;
+    height: 41px;
+    flex-shrink: 0;
+    margin: 24px;
+}
+
+.mobapp {
+    display: flex;
+    flex-direction: row;
+    gap: 29px;
+}
+
+
+.arvr {
+    display: flex;
+    flex-direction: row;
+    gap: 29px;    
+    
+
+}
+
+.arvrp {
+    width: 91px;
+    height: 90px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFE7FB;
+}
+
+.arvrp img {
+    width: 41px;
+    height: 41px;
+    flex-shrink: 0;
+    margin: 24px;
+    
+
+}
+
+.arvr h5 {
+    color: #2E0D64;
+    text-align: center;
+    font-family: var(--Poppins);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44.475px; 
+    letter-spacing: 0.25px;  
+    
+}
+
+
+
+.left , .right {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+.lorem_and_web {
+    display: flex;
+    gap: 44px;
+    justify-content: center;
+    margin-top: 128px;
+    margin-bottom: 197px;
+}
+
+.btn {
+    color: var(--Blue);
+    border-color: var(--Blue);
+}
+
+/*  NUMBERS  */
+
+.numbers {
+    display: flex;
+    flex-direction: row;
+    gap: 160px;
+    position: relative;
+    padding: 119px 123px 178px 214px;
+    background-color:var(--Blue) ;
+    height: 318px;
+}
+
+h6 {
+    color: var(--White) ;
+    font-family: var(--Poppins);
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 115.635px; 
+    letter-spacing: 0.65px;
+    text-align: center;
+}
+
+
+p {
+    color: var(--White) ;
+    font-family: var(--Poppins);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.464px; 
+    letter-spacing: 0.16px;
+}
+
+
+
+/* Cards End  */
+
+.card_end {
+    display: flex;
+    gap: 84px;
+    justify-content: center;
+    padding-left: 119px;
+    padding-right: 153px;
+
+}
+
+
+.box img {
+    width: 333px;
+}
+
+.box h4 {
+    width: 333px;
+    color: var(--Black);
+    font-family: var(--Poppins);
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 177.9%;
+    letter-spacing: 0.23px;
+    padding-top: 40px;
+}
+
+
+.box h3 {
+    width: 333px;
+    color: #424242;
+    font-family: var(--Poppins);
+    padding-top: 43px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 210.9%;
+    letter-spacing: 0.16px;
+}
+
+.ending {
+
+    margin-top: 140px;
+}
+
+.ending h2 {
+    padding-left: 80px;
+    color: var(--Black);
+    font-family: var(--Poppins);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 64.044px; 
+    letter-spacing: 0.36px;
+    padding-bottom: 63px;
+
+}
+ 
+ 
+ /* EMAIL */
+
+ .email-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    padding: 148px 360px;
+    background: var(--White);
+    position: relative;
+    margin-top: 86px;
+  }
+  
+  .email-card p{
+    width: 516px;
+    color: var(--Black);
+    text-align: center;
+    font-family: var(--Poppins);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 51px; 
+  }
+  
+  .email-card form{
+    display: flex;
+    gap: 14px;
+  }
+  
+  .email-card form input{
+    color: #787878;
+    font-family: var(--Poppins);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.2px; 
+    padding-left: 36px;
+    width: 532px;
+    border-radius: 10px;
+    background: var(--White) ;
+    border: none;
+    box-shadow: 0px 4px 84px 0px rgba(0, 0, 0, 0.07);
+  }
+  
+  .email-card form button{
+    cursor: pointer;
+    padding: 20px 44px;
+    border: none;
+    border-radius: 10px;
+    background: var(--Black);
+    color: var(--White);
+    text-align: center;
+    font-family: var(--Poppins);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27.2px; 
+  }
+  
+  .star{
+    top: -44px;
+    left: 167px;
+    position: absolute;
+  }
+
+  .pai{
+    position: absolute;
+    left: 989px;
+    top: 44px;
+  }
+  
+  .email-list img:last-child{
+    top: 94px;
+    right: 397px;
+    position: absolute;
+  }

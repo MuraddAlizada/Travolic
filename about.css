@@ -1,0 +1,296 @@
+:root { 
+  --Poppins: @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-bottom: 220px;
+  }
+  
+  .about-top{
+    padding: 156px 132px 0 90px;
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+  }
+  
+  .left{
+    display: flex;
+    gap: 50px;
+    align-items: end;
+  }
+  
+
+  .right{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .right h1{
+    color: #1090CB;
+    font-family: var(--Poppins);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .right p:first-child{
+    color: #252525;
+    font-family: var(--Poppins);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 68px; 
+  }
+  
+  .right p:last-child{
+    color: #868686;
+    font-family: var(--Poppins);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31.5px; 
+  }
+  
+  .about-bottom{
+    padding: 0 162px;
+    display: flex;
+    gap: 52px;
+  }
+ 
+  /* LOREM */
+
+ .center{
+ padding-left: 122px;
+ gap: 48px;
+ display: flex;
+ flex-direction: column;
+ margin-bottom: 186px;
+ }
+
+ .center h2{
+  width: 807px;
+  color: #1090CB;
+  font-family:var(--Poppins);
+ }
+                            
+ .center h2{
+ width: 807px;
+ color: #1090CB;
+ font-family: var(--Poppins);
+ font-size: 45px;
+ font-style: normal;
+ font-weight: 600;
+ line-height: 72px;
+ }
+ 
+ .center p{
+  width: 1014px;
+  color: #585858;
+  font-family: var(--Poppins);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; 
+ }
+
+ .lorem{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 122px;                       
+  margin-bottom: 196px;
+ }  
+ 
+ .lorem-left{
+  display: flex;                            
+  flex-direction: column;                          
+  width: 500px;                            
+  gap: 32px;                            
+  position: relative;
+ }                            
+
+ .rectangle{
+  position: absolute;
+  top: -28px;
+  width: 54px;
+  height: 5px;
+ }
+
+ .lorem-left h3{
+  color: #000;
+  font-family: var(--Poppins);
+  font-size: 30px;
+  font-style: normal;   
+  font-weight: 600;
+  line-height: 48px; 
+ }                    
+                              
+ .lorem-left p{
+  color: #585858;
+  font-family: var(--Poppins);                          
+  font-size: 20px;                            
+  font-style: normal;                            
+  font-weight: 400;                            
+  line-height: 40px;
+ }                            
+
+ .lorem-left button{
+  width: 194px;
+  padding: 10px 52px;                          
+  border-radius: 10px;                           
+  border: 1px solid #1090CB;                            
+  background: #FFF;                            
+  color: #1090CB;                           
+  font-family: var(--Poppins);                            
+  font-size: 16px;                            
+  font-style: normal;                            
+  font-weight: 400;                            
+  line-height: 32.688px;                            
+ }                           
+  
+ .card1{
+  display: flex;
+  flex-direction: column;
+  /* gap: 55px; */
+ }
+
+ .card2{
+  display: flex;
+  flex-direction: column;
+  /* gap: 55px; */
+ }
+                            
+ .lorem-right{
+ display: flex;
+ align-items: center;
+ padding: 0 60px;
+ height: 354px;
+ width: 60%;
+ gap: 228px;
+ background-color: #FFF;
+ text-align: center;
+ font-family: var(--Poppins);
+ font-size: 25px;
+ font-style: normal;
+ font-weight: 500;
+ line-height: 44.475px; 
+ letter-spacing: 0.25px;
+ box-shadow: 0px 4px 124px 0px rgba(0, 0, 0, 0.10);
+ }
+                            
+ .left1, .left2, .right1, .right2{
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  text-align: center;
+  align-items: center;
+ }
+
+ .img1{
+ width: 90px;
+ height: 90px;
+ border-radius: 20px;
+ background-color: #FFF2F2;
+ }
+
+ .img2{
+  width: 90px;
+  height: 90px;
+  border-radius: 20px;
+  background-color:#F1E8FF;
+  }
+
+ .img3{
+ width: 90px;
+ height: 90px;
+ border-radius: 20px;
+ background-color:#E2F3FF;
+ }
+
+ .img4{
+  width: 90px;
+ height: 90px;
+ border-radius: 20px;
+ background-color:#FFE7FB;
+ }
+
+/* EMAIL */
+  .email-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    padding: 148px 360px;
+    background: #E8F4FA;
+    position: relative;
+    margin-top: 86px;
+  }
+  
+  .email-card p{
+    width: 516px;
+    color: #252525;
+    text-align: center;
+    font-family: var(--Poppins);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 51px; 
+  }
+  
+  .email-card form{
+    display: flex;
+    gap: 14px;
+  }
+  
+  .email-card form input{
+    color: #787878;
+    font-family: var(--Poppins);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.2px; 
+    padding-left: 36px;
+    width: 532px;
+    border-radius: 10px;
+    background: #FFF;
+    border: none;
+    box-shadow: 0px 4px 84px 0px rgba(0, 0, 0, 0.07);
+  }
+  
+  .email-card form button{
+    cursor: pointer;
+    padding: 20px 44px;
+    border: none;
+    border-radius: 10px;
+    background: #000;
+    color: #FFF4F4;
+    text-align: center;
+    font-family: var(--Poppins);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27.2px; 
+  }
+  
+  .star{
+    top: -44px;
+    left: 167px;
+    position: absolute;
+  }
+
+  .pai{
+    position: absolute;
+    left: 989px;
+    top: 44px;
+  }
+  
+  .email-list img:last-child{
+    top: 94px;
+    right: 397px;
+    position: absolute;
+  }

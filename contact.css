@@ -1,0 +1,232 @@
+:root{
+    --Black: #000000;
+    --MainGrey: #777777;
+    --DarkGrey: #333333;
+    --LightGrey: #C2C2C2;
+    --Blue: #1090CB;
+    --LightBlue: #E8F4FA;
+    --White: #FFFFFF;
+    --Red: rgba(255, 0, 0, 0.12);
+    --Yellow: #F5F3DA;
+    --Poppins: @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+}
+
+
+
+
+.map{
+    padding: 90px 134px;
+}
+
+.map-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.map-text{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+}
+
+.beverly{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 77px;
+    height: 77px;
+    border-radius: 38.5px;
+    background-color: var(--Yellow);
+}
+
+.beverly img{
+    width: 56px;
+    height: 56px;
+}
+
+.map-text h1{
+    color: var(--Black);
+    font-family: var(--Poppins);
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 76.5px;
+}
+
+.map-text p{
+    width: 437px;
+    color: var(--MainGrey);
+    font-family: var(--Poppins);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37.9px;
+}
+
+.ellipse-lg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 250px;
+    top: 325px;
+    width: 48px;
+    height: 48px;
+}
+
+.map-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.map-socials{
+    margin-right: 80px;
+    display: flex;
+    flex-direction: row ;
+    gap: 12px;
+    color: var(--Black);
+    font-family: var(--Poppins);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.32px;
+}
+
+
+.tel-box{
+    border-left: solid var(--LightGrey);
+    border-right: solid var(--LightGrey);
+    display: flex;
+    align-items: center;
+}
+
+.tel-num{
+    display: flex;
+    gap: 25px;
+    margin: 0 105px;
+    color: var(--DarkGrey);
+    font-family: var(--Poppins);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.location{
+    width: 364px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: var(--DarkGrey);
+    font-family: var(--Poppins);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.say-hello{
+    height: 742px;
+    padding: 54px 385px 64px 385px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: var(--LightBlue);
+}
+
+.say-hello-title{
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.say-hello-title h2{
+    color: var(--Black);
+    font-family: var(--Poppins);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56.85px;
+}
+
+.say-hello-title p{
+    color: var(--MainGrey);
+    text-align: center;
+    font-family: var(--Poppins);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24.635px;
+}
+
+.hello-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+}
+
+.name input{
+    width: 320px;
+    height: 56px;
+    border: none;
+    border-radius: 9px;
+    background: var(--White);
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.input-email{
+    width: 671px;
+    height: 56px;
+    border: none;
+    border-radius: 9px;
+    background: var(--White);
+}
+
+.input-message{
+    width: 671px;
+    height: 232px;
+    border: none;
+    border-radius: 9px;
+    background: var(--White);
+}
+
+.hello-form label{
+    color: var(--MainGrey);
+    font-family: var(--Poppins);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24.556px;
+    letter-spacing: -0.3px;
+}
+
+.say-hello button{
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    bottom: -110px;
+    padding: 10px 48px;
+    border: none;
+    border-radius: 10px;
+    background: var(--Blue);
+    color: var(--White);
+    font-family: var(--Poppins);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32.688px;
+}
